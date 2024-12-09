@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a8bfd04-94b7-4986-90c7-3400e79a8f00">
+  <producedTypes>
+    <objectType typeId="c4e656c6-d15c-47b6-aa73-a86ebf4bf00f" valueTypeId="cb169828-b8c1-48ef-9f99-7f3e1cad94d6"/>
+  </producedTypes>
+  <name>ОИР_УПД</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОИР УПД</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="9f4f9076-93a4-4003-bfe8-c8fa2c26b04b"/>
+  <defaultForm>ExternalDataProcessor.ОИР_УПД.Form.Форма</defaultForm>
+  <forms uuid="b3fea2d6-1848-4998-84a7-87928cd39fc5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="22f0defd-4b79-4a53-8cad-f2d601d33d22">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент534_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции Постановления № 981) </value>
+    </synonym>
+  </templates>
+  <templates uuid="fc39bff9-d8f9-43ab-9fbc-7da4b55264fa">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент981_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции Постановления № 981) </value>
+    </synonym>
+  </templates>
+  <templates uuid="8249fc3a-1d7d-4414-9a39-0d2080968a5a">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент_625_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции постановления №625)</value>
+    </synonym>
+  </templates>
+  <templates uuid="6162c222-2b65-4b5f-a5de-67390a8589da">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ</value>
+    </synonym>
+  </templates>
+  <templates uuid="901b2e58-206d-47d8-93f7-0c9e959950ae">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент534_en</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции Постановления № 981) </value>
+    </synonym>
+  </templates>
+  <templates uuid="5abdd1a0-4afe-46f8-823f-5fb8079d6129">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент534_ar</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции Постановления № 981) </value>
+    </synonym>
+  </templates>
+  <templates uuid="1be4a1bf-b87e-4924-b370-c29d6ba4c0ff">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент534_en1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции Постановления № 981) </value>
+    </synonym>
+  </templates>
+  <templates uuid="61da0a40-5f77-4924-bdb6-6121b3d59ba8">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент534_tur</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции Постановления № 981) </value>
+    </synonym>
+  </templates>
+  <templates uuid="772a8cf7-7851-4530-824e-82b9bdcc220a">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент1096_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции Постановления № 1096) </value>
+    </synonym>
+  </templates>
+  <templates uuid="940dcc0e-14ad-4005-98fc-4d560a128338">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент1096_en</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции Постановления № 1096) </value>
+    </synonym>
+  </templates>
+  <templates uuid="6e679d65-aed9-4b00-8b6d-835906a744f2">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент1096_ar</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции Постановления № 1096) </value>
+    </synonym>
+  </templates>
+  <templates uuid="9575e766-fc5b-4ec9-af9c-3df7097081f2">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент1096_tur</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции Постановления № 1096) </value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>

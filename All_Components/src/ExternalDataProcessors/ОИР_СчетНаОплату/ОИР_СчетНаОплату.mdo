@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73fa7224-df5b-427b-9089-ee7f59c16045">
+  <producedTypes>
+    <objectType typeId="dc0b1e42-5d19-4788-a214-21d4c3d5de5f" valueTypeId="bd7ce088-17b4-42c0-b309-f01384a6767c"/>
+  </producedTypes>
+  <name>ОИР_СчетНаОплату</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОИР Счет на оплату</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="1d8c292e-3138-4eca-8bdb-e26247277c90"/>
+  <defaultForm>ExternalDataProcessor.ОИР_СчетНаОплату.Form.Форма</defaultForm>
+  <forms uuid="091f092f-d84f-40c6-8533-bd3a7a381440">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="95d632b9-ce13-4c5f-ad18-bfe0ab4fc55f">
+    <name>ПФ_MXL_СчетНаОплату2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет на оплату</value>
+    </synonym>
+  </templates>
+  <templates uuid="bb49198e-d519-4492-a3b3-6d9d60c71f10">
+    <name>ПФ_MXL_СчетНаОплатуEN</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет на оплату</value>
+    </synonym>
+  </templates>
+  <templates uuid="f11da1d3-26d3-4e2c-aa73-639e789e4f24">
+    <name>ПФ_MXL_СчетНаОплатуAR</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет на оплату</value>
+    </synonym>
+  </templates>
+  <templates uuid="d838175e-b8fe-4500-b57e-f4618ea425c7">
+    <name>ПФ_MXL_СчетНаОплатуTUR</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет на оплату</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88f5ceb2-3ade-407b-bc7d-d8fbf08edc56">
+  <producedTypes>
+    <objectType typeId="b00bc0cc-b432-42c8-b931-61a830c3758c" valueTypeId="60a9a4ae-5e29-4088-9da8-14e9f3ddde6e"/>
+  </producedTypes>
+  <name>ОИР_ВОЭТ185</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОИР ВОЭТ185</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="a040e0f0-f034-4176-a92d-e71615e496d5"/>
+  <defaultForm>ExternalDataProcessor.ОИР_ВОЭТ185.Form.Форма</defaultForm>
+  <attributes uuid="72b7195b-8b90-4ca0-bb4a-b87b753600c9">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6d1a1736-467b-4303-96bb-3be53924ae2c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="57fa6a76-960f-463b-b70d-961f349edfc2">
+    <name>ПФ_MXL_М29</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL м29</value>
+    </synonym>
+  </templates>
+  <templates uuid="ef6523fe-9dc5-48e1-b658-62538f16d879">
+    <name>ПФ_MXL_Т185</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФ MXL Т185</value>
+    </synonym>
+  </templates>
+  <templates uuid="94533d51-b3c4-4fa9-9a62-14c99d712a64">
+    <name>ПФ_MXL_Т185_en</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФ MXL Т185</value>
+    </synonym>
+  </templates>
+  <templates uuid="e1c691c8-2587-4624-af89-7f330df97b83">
+    <name>ПФ_MXL_Т186_ar</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФ MXL Т185</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>
