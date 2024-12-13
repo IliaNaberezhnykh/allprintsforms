@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7dfcb094-f946-4bbc-abc6-1e0161dcbe0f">
+  <producedTypes>
+    <objectType typeId="4d66bb47-01ef-4d45-a665-f6b27c616cac" valueTypeId="8721d45e-036f-41ab-ac4b-d031cc94e82b"/>
+  </producedTypes>
+  <name>ОтчетПоОтгрузкеЗаказаЧастями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по отгрузке заказа частями</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="c34ea7eb-fa17-4917-a35e-c049cbe01c17"/>
+  <mainDataCompositionSchema>ExternalReport.ОтчетПоОтгрузкеЗаказаЧастями.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="2f15ab7a-9ef2-4518-9f30-0b9ad97cabf8">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

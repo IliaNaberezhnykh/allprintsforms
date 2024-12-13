@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96ecb00d-a6ca-45bf-a21c-9aea411768ea">
+  <producedTypes>
+    <objectType typeId="77ef3aa0-68ac-4885-9f86-9ed7c7b57328" valueTypeId="9a09ff29-1c8c-4849-9dec-65fb965fa5df"/>
+  </producedTypes>
+  <name>СвободныеОстаткиПоНоменклатуре</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свободные остатки по номенклатуре</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="cad49069-1800-46a8-a319-2b9537bd3dd6"/>
+  <mainDataCompositionSchema>ExternalReport.СвободныеОстаткиПоНоменклатуре.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="da490411-ae0c-4f29-9708-955526cd24a9">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1343b4f-df55-4f5c-9657-3e669ebde830">
+  <producedTypes>
+    <objectType typeId="e704d4f0-a29a-41ed-b903-f6466922f508" valueTypeId="46e37769-22b8-414d-bc25-38ab85439d8e"/>
+  </producedTypes>
+  <name>РеестрПлатежей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр платежей</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Payment list</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="75e13517-805a-414a-ada2-daf60880ecc6"/>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>ExternalReport.РеестрПлатежей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="48432074-1c73-481d-af93-d943c02a91e3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

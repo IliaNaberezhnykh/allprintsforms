@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b92b6f1-be64-4c7d-8cfe-b25c19461f45">
+  <producedTypes>
+    <objectType typeId="e2377903-9c1e-42d7-b66d-ea66c67362e1" valueTypeId="332b5d0f-912b-4eb2-8625-8bc7ac10cdc6"/>
+  </producedTypes>
+  <name>ТаможенныеДекларацииНаЭкспортДляНалоговойОИР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таможенные декларации на экспорт для налоговой ОИР</value>
+  </synonym>
+  <comment>Вместо ГТД (ОИР), основан на регистре &quot;РегистрСведений.СведенияТаможенныхДекларацийЭкспорт&quot;</comment>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="b103a91a-749c-4e4b-8f94-ea5c1cdf14c4"/>
+  <mainDataCompositionSchema>ExternalReport.ТаможенныеДекларацииНаЭкспортДляНалоговойОИР.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="48fab9e3-0831-4ad0-8399-b6329f9ebe72">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

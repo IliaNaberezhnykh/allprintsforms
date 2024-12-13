@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e17e1911-f918-4b52-b1cc-7b209c4410a4">
+  <producedTypes>
+    <objectType typeId="7c9785e6-a4c9-44d1-b699-71b7d754a290" valueTypeId="335a817b-966e-4491-bac1-3a451a4b6d19"/>
+  </producedTypes>
+  <name>ТабельОИР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Табель ОИР</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="9d4b720c-06ab-4685-980d-82c668e9ec89"/>
+  <mainDataCompositionSchema>ExternalReport.ТабельОИР.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="ba83d602-23d5-4b4a-9be2-4e60b45aa155">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cc3a8e0-f60a-4fc7-8f0f-a01012024e1a">
+  <producedTypes>
+    <objectType typeId="b24f0fd4-d9f7-4839-a4f0-51518fe9d371" valueTypeId="dc0631d0-c13b-4a8e-af21-d927fe4e279a"/>
+  </producedTypes>
+  <name>ПоступлениеТоваровЗаНеделю2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление товаров за неделю 2</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="924eedb0-b6a1-4e29-91b2-303c0ab85d4d"/>
+  <mainDataCompositionSchema>ExternalReport.ПоступлениеТоваровЗаНеделю2.Template.ОсновнаяСхемаКомпоновкиДанных1</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <settingsStorage>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorage>
+  <templates uuid="385d5b8b-32e4-4ded-ba32-114db48b714c">
+    <name>ОсновнаяСхемаКомпоновкиДанных1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных1</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

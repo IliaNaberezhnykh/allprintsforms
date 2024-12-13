@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c958b84-9e09-492e-bdb4-4e338e335360">
+  <producedTypes>
+    <objectType typeId="08f37fd6-0fb9-4221-9b32-a84e5aa4b458" valueTypeId="616c07fd-62ad-4e71-989f-a645df7f765d"/>
+  </producedTypes>
+  <name>ЗаменаРеквизитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замена реквизитов</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="29e925bc-7224-4892-89a4-ffa1495d300f"/>
+  <defaultForm>ExternalDataProcessor.ЗаменаРеквизитов.Form.ФормаЗК</defaultForm>
+  <attributes uuid="512ceb26-af3a-473f-8b34-71557a505e55">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6544c177-6ac6-465b-be99-67237b1ca2eb">
+    <name>ФормаЗК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ЗК</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

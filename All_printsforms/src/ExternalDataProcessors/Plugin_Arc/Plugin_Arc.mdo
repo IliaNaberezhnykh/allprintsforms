@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="497770e7-6cc6-4326-9314-6875a251e002">
+  <producedTypes>
+    <objectType typeId="93fed301-90c1-4677-a3c2-9b11e6c012d8" valueTypeId="ee22bead-1050-4264-b508-a7d91b682697"/>
+  </producedTypes>
+  <name>Plugin_Arc</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плагин для сохранения документов</value>
+  </synonym>
+  <comment>https://support.kontur.ru/diadoc-1s8x/46953-plagin_dlya_soxraneniya_dokumentov</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="2a98d799-40e3-441c-bc85-2a3f93570f78"/>
+  <forms uuid="9b78c133-9e63-46b3-aff0-0b4d68c127ea">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2e533a93-b131-4b99-9e38-7122fb4cc6be">
+    <name>КлиентскиеВызовы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиентские вызовы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0c8d6d26-0fa1-45f9-a0aa-f320e718964f">
+    <name>Настройки_Обычная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки обычная</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6641c92b-9707-47e1-a274-0af78d25ffef">
+    <name>ОписаниеПлагина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание плагина</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>

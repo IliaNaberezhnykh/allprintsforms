@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetUnion">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПостатейныеПостоянныеУпр</dataPath>
+			<field>ПостатейныеПостоянныеУпр</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Стоимость</dataPath>
+			<field>Стоимость</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+			<role>
+				<dcscom:periodNumber>3</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВременнаяРазница</dataPath>
+			<field>ВременнаяРазница</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПостатейныеПеременныеУпр</dataPath>
+			<field>ПостатейныеПеременныеУпр</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
+			<role>
+				<dcscom:periodNumber>2</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерСтроки</dataPath>
+			<field>НомерСтроки</field>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПостояннаяРазница</dataPath>
+			<field>ПостояннаяРазница</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаправлениеДеятельности</dataPath>
+			<field>НаправлениеДеятельности</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Активность</dataPath>
+			<field>Активность</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ХозяйственнаяОперация</dataPath>
+			<field>ХозяйственнаяОперация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИсточникГФУНоменклатуры</dataPath>
+			<field>ИсточникГФУНоменклатуры</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АналитикаУчетаНоменклатуры</dataPath>
+			<field>АналитикаУчетаНоменклатуры</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипЗапасов</dataPath>
+			<field>ТипЗапасов</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидЗапасов</dataPath>
+			<field>ВидЗапасов</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорНаправлениеДеятельности</dataPath>
+			<field>КорНаправлениеДеятельности</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорИсточникГФУНоменклатуры</dataPath>
+			<field>КорИсточникГФУНоменклатуры</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПостатейныеПостоянныеРегл</dataPath>
+			<field>ПостатейныеПостоянныеРегл</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДопРасходыБезНДС</dataPath>
+			<field>ДопРасходыБезНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорАналитикаУчетаНоменклатуры</dataPath>
+			<field>КорАналитикаУчетаНоменклатуры</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьЗабалансовая</dataPath>
+			<field>СтоимостьЗабалансовая</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСклад</dataPath>
+			<field>КорСклад</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПостатейныеПеременныеБезНДС</dataPath>
+			<field>ПостатейныеПеременныеБезНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПостатейныеПеременныеСНДС</dataPath>
+			<field>ПостатейныеПеременныеСНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорТипЗапасов</dataPath>
+			<field>КорТипЗапасов</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РасчетСебестоимости</dataPath>
+			<field>РасчетСебестоимости</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорВидЗапасов</dataPath>
+			<field>КорВидЗапасов</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорКоличество</dataPath>
+			<field>КорКоличество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьБезНДС</dataPath>
+			<field>СтоимостьБезНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьУпр</dataPath>
+			<field>СтоимостьУпр</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьРегл</dataPath>
+			<field>СтоимостьРегл</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьЗабалансоваяРегл</dataPath>
+			<field>СтоимостьЗабалансоваяРегл</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументДвижения</dataPath>
+			<field>ДокументДвижения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДопРасходы</dataPath>
+			<field>ДопРасходы</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДопРасходыУпр</dataPath>
+			<field>ДопРасходыУпр</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТрудозатратыУпр</dataPath>
+			<field>ТрудозатратыУпр</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДопРасходыРегл</dataPath>
+			<field>ДопРасходыРегл</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПостатейныеПостоянныеСНДС</dataPath>
+			<field>ПостатейныеПостоянныеСНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПостатейныеПостоянныеБезНДС</dataPath>
+			<field>ПостатейныеПостоянныеБезНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Трудозатраты</dataPath>
+			<field>Трудозатраты</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТрудозатратыРегл</dataPath>
+			<field>ТрудозатратыРегл</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПостатейныеПеременныеРегл</dataPath>
+			<field>ПостатейныеПеременныеРегл</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РезервПодОбесценениеРегл</dataPath>
+			<field>РезервПодОбесценениеРегл</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодСторно</dataPath>
+			<field>ПериодСторно</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РезервПодОбесценениеУпр</dataPath>
+			<field>РезервПодОбесценениеУпр</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорОрганизация</dataPath>
+			<field>КорОрганизация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сторно</dataPath>
+			<field>Сторно</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<item xsi:type="DataSetQuery">
+			<name>Регистр</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Организация</dataPath>
+				<field>Организация</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПостатейныеПостоянныеУпр</dataPath>
+				<field>ПостатейныеПостоянныеУпр</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Стоимость</dataPath>
+				<field>Стоимость</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Период</dataPath>
+				<field>Период</field>
+				<role>
+					<dcscom:periodNumber>3</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВременнаяРазница</dataPath>
+				<field>ВременнаяРазница</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПостатейныеПеременныеУпр</dataPath>
+				<field>ПостатейныеПеременныеУпр</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Регистратор</dataPath>
+				<field>Регистратор</field>
+				<role>
+					<dcscom:periodNumber>2</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение</dataPath>
+				<field>Подразделение</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НомерСтроки</dataPath>
+				<field>НомерСтроки</field>
+				<role>
+					<dcscom:periodNumber>1</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПостояннаяРазница</dataPath>
+				<field>ПостояннаяРазница</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НаправлениеДеятельности</dataPath>
+				<field>НаправлениеДеятельности</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Активность</dataPath>
+				<field>Активность</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ХозяйственнаяОперация</dataPath>
+				<field>ХозяйственнаяОперация</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИсточникГФУНоменклатуры</dataPath>
+				<field>ИсточникГФУНоменклатуры</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АналитикаУчетаНоменклатуры</dataPath>
+				<field>АналитикаУчетаНоменклатуры</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Склад</dataPath>
+				<field>Склад</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипЗапасов</dataPath>
+				<field>ТипЗапасов</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидЗапасов</dataPath>
+				<field>ВидЗапасов</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КорНаправлениеДеятельности</dataPath>
+				<field>КорНаправлениеДеятельности</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КорИсточникГФУНоменклатуры</dataPath>
+				<field>КорИсточникГФУНоменклатуры</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПостатейныеПостоянныеРегл</dataPath>
+				<field>ПостатейныеПостоянныеРегл</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДопРасходыБезНДС</dataPath>
+				<field>ДопРасходыБезНДС</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КорАналитикаУчетаНоменклатуры</dataPath>
+				<field>КорАналитикаУчетаНоменклатуры</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьЗабалансовая</dataPath>
+				<field>СтоимостьЗабалансовая</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КорСклад</dataPath>
+				<field>КорСклад</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПостатейныеПеременныеБезНДС</dataPath>
+				<field>ПостатейныеПеременныеБезНДС</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПостатейныеПеременныеСНДС</dataPath>
+				<field>ПостатейныеПеременныеСНДС</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КорТипЗапасов</dataPath>
+				<field>КорТипЗапасов</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>РасчетСебестоимости</dataPath>
+				<field>РасчетСебестоимости</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КорВидЗапасов</dataPath>
+				<field>КорВидЗапасов</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Количество</dataPath>
+				<field>Количество</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КорКоличество</dataPath>
+				<field>КорКоличество</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьБезНДС</dataPath>
+				<field>СтоимостьБезНДС</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьУпр</dataPath>
+				<field>СтоимостьУпр</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьРегл</dataPath>
+				<field>СтоимостьРегл</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьЗабалансоваяРегл</dataPath>
+				<field>СтоимостьЗабалансоваяРегл</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокументДвижения</dataPath>
+				<field>ДокументДвижения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДопРасходы</dataPath>
+				<field>ДопРасходы</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДопРасходыУпр</dataPath>
+				<field>ДопРасходыУпр</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТрудозатратыУпр</dataPath>
+				<field>ТрудозатратыУпр</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДопРасходыРегл</dataPath>
+				<field>ДопРасходыРегл</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПостатейныеПостоянныеСНДС</dataPath>
+				<field>ПостатейныеПостоянныеСНДС</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПостатейныеПостоянныеБезНДС</dataPath>
+				<field>ПостатейныеПостоянныеБезНДС</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Трудозатраты</dataPath>
+				<field>Трудозатраты</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТрудозатратыРегл</dataPath>
+				<field>ТрудозатратыРегл</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПостатейныеПеременныеРегл</dataPath>
+				<field>ПостатейныеПеременныеРегл</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>РезервПодОбесценениеРегл</dataPath>
+				<field>РезервПодОбесценениеРегл</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодСторно</dataPath>
+				<field>ПериодСторно</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>РезервПодОбесценениеУпр</dataPath>
+				<field>РезервПодОбесценениеУпр</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КорОрганизация</dataPath>
+				<field>КорОрганизация</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Сторно</dataPath>
+				<field>Сторно</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Номенклатура</dataPath>
+				<field>Номенклатура</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Номенклатура</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	ДвиженияНоменклатураНоменклатура.Период КАК Период,
+	ДвиженияНоменклатураНоменклатура.Регистратор КАК Регистратор,
+	ДвиженияНоменклатураНоменклатура.НомерСтроки КАК НомерСтроки,
+	ДвиженияНоменклатураНоменклатура.Активность КАК Активность,
+	ДвиженияНоменклатураНоменклатура.ХозяйственнаяОперация КАК ХозяйственнаяОперация,
+	ДвиженияНоменклатураНоменклатура.Организация КАК Организация,
+	ДвиженияНоменклатураНоменклатура.Подразделение КАК Подразделение,
+	ДвиженияНоменклатураНоменклатура.НаправлениеДеятельности КАК НаправлениеДеятельности,
+	ДвиженияНоменклатураНоменклатура.АналитикаУчетаНоменклатуры КАК АналитикаУчетаНоменклатуры,
+	ДвиженияНоменклатураНоменклатура.Склад КАК Склад,
+	ДвиженияНоменклатураНоменклатура.ТипЗапасов КАК ТипЗапасов,
+	ДвиженияНоменклатураНоменклатура.ВидЗапасов КАК ВидЗапасов,
+	ДвиженияНоменклатураНоменклатура.КорНаправлениеДеятельности КАК КорНаправлениеДеятельности,
+	ДвиженияНоменклатураНоменклатура.КорАналитикаУчетаНоменклатуры КАК КорАналитикаУчетаНоменклатуры,
+	ДвиженияНоменклатураНоменклатура.КорСклад КАК КорСклад,
+	ДвиженияНоменклатураНоменклатура.КорТипЗапасов КАК КорТипЗапасов,
+	ДвиженияНоменклатураНоменклатура.КорВидЗапасов КАК КорВидЗапасов,
+	ДвиженияНоменклатураНоменклатура.Количество КАК Количество,
+	ДвиженияНоменклатураНоменклатура.КорКоличество КАК КорКоличество,
+	ДвиженияНоменклатураНоменклатура.Стоимость КАК Стоимость,
+	ДвиженияНоменклатураНоменклатура.СтоимостьБезНДС КАК СтоимостьБезНДС,
+	ДвиженияНоменклатураНоменклатура.СтоимостьУпр КАК СтоимостьУпр,
+	ДвиженияНоменклатураНоменклатура.СтоимостьРегл КАК СтоимостьРегл,
+	ДвиженияНоменклатураНоменклатура.СтоимостьЗабалансовая КАК СтоимостьЗабалансовая,
+	ДвиженияНоменклатураНоменклатура.СтоимостьЗабалансоваяРегл КАК СтоимостьЗабалансоваяРегл,
+	ДвиженияНоменклатураНоменклатура.ДопРасходы КАК ДопРасходы,
+	ДвиженияНоменклатураНоменклатура.ДопРасходыБезНДС КАК ДопРасходыБезНДС,
+	ДвиженияНоменклатураНоменклатура.ДопРасходыУпр КАК ДопРасходыУпр,
+	ДвиженияНоменклатураНоменклатура.ДопРасходыРегл КАК ДопРасходыРегл,
+	ДвиженияНоменклатураНоменклатура.ПостатейныеПостоянныеСНДС КАК ПостатейныеПостоянныеСНДС,
+	ДвиженияНоменклатураНоменклатура.ПостатейныеПостоянныеБезНДС КАК ПостатейныеПостоянныеБезНДС,
+	ДвиженияНоменклатураНоменклатура.ПостатейныеПостоянныеУпр КАК ПостатейныеПостоянныеУпр,
+	ДвиженияНоменклатураНоменклатура.ПостатейныеПостоянныеРегл КАК ПостатейныеПостоянныеРегл,
+	ДвиженияНоменклатураНоменклатура.Трудозатраты КАК Трудозатраты,
+	ДвиженияНоменклатураНоменклатура.ТрудозатратыУпр КАК ТрудозатратыУпр,
+	ДвиженияНоменклатураНоменклатура.ТрудозатратыРегл КАК ТрудозатратыРегл,
+	ДвиженияНоменклатураНоменклатура.ПостатейныеПеременныеСНДС КАК ПостатейныеПеременныеСНДС,
+	ДвиженияНоменклатураНоменклатура.ПостатейныеПеременныеБезНДС КАК ПостатейныеПеременныеБезНДС,
+	ДвиженияНоменклатураНоменклатура.ПостатейныеПеременныеУпр КАК ПостатейныеПеременныеУпр,
+	ДвиженияНоменклатураНоменклатура.ПостатейныеПеременныеРегл КАК ПостатейныеПеременныеРегл,
+	ДвиженияНоменклатураНоменклатура.ПостояннаяРазница КАК ПостояннаяРазница,
+	ДвиженияНоменклатураНоменклатура.ВременнаяРазница КАК ВременнаяРазница,
+	ДвиженияНоменклатураНоменклатура.РезервПодОбесценениеРегл КАК РезервПодОбесценениеРегл,
+	ДвиженияНоменклатураНоменклатура.РезервПодОбесценениеУпр КАК РезервПодОбесценениеУпр,
+	ДвиженияНоменклатураНоменклатура.ИсточникГФУНоменклатуры КАК ИсточникГФУНоменклатуры,
+	ДвиженияНоменклатураНоменклатура.КорИсточникГФУНоменклатуры КАК КорИсточникГФУНоменклатуры,
+	ДвиженияНоменклатураНоменклатура.ДокументДвижения КАК ДокументДвижения,
+	ДвиженияНоменклатураНоменклатура.КорОрганизация КАК КорОрганизация,
+	ДвиженияНоменклатураНоменклатура.РасчетСебестоимости КАК РасчетСебестоимости,
+	ДвиженияНоменклатураНоменклатура.ПериодСторно КАК ПериодСторно,
+	ДвиженияНоменклатураНоменклатура.Сторно КАК Сторно,
+	ДвиженияНоменклатураНоменклатура.АналитикаУчетаНоменклатуры.Номенклатура КАК Номенклатура
+ИЗ
+	РегистрНакопления.ДвиженияНоменклатураНоменклатура КАК ДвиженияНоменклатураНоменклатура</query>
+		</item>
+		<item xsi:type="DataSetQuery">
+			<name>Приобретения</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Организация</dataPath>
+				<field>Организация</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Склад</dataPath>
+				<field>Склад</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Количество</dataPath>
+				<field>Количество</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Регистратор</dataPath>
+				<field>Регистратор</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Регистратор</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Стоимость</dataPath>
+				<field>Стоимость</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Стоимость</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Период</dataPath>
+				<field>Период</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Номенклатура</dataPath>
+				<field>Номенклатура</field>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	ПриобретениеТоваровУслугТовары.Ссылка.Организация КАК Организация,
+	ПриобретениеТоваровУслугТовары.Ссылка.Склад КАК Склад,
+	ПриобретениеТоваровУслугТовары.Ссылка.Ссылка КАК Регистратор,
+	ПриобретениеТоваровУслугТовары.Номенклатура КАК Номенклатура,
+	ПриобретениеТоваровУслугТовары.Количество КАК Количество,
+	ПриобретениеТоваровУслугТовары.СуммаСНДС КАК Стоимость,
+	ПриобретениеТоваровУслугТовары.Ссылка.Дата КАК Период
+ИЗ
+	Документ.ПриобретениеТоваровУслуг.Товары КАК ПриобретениеТоваровУслугТовары</query>
+		</item>
+	</dataSet>
+	<calculatedField>
+		<dataPath>Дебет</dataPath>
+		<expression>Выбор Когда ТИПЗНАЧЕНИЯ(Регистратор) = ТИП("Документ.ПриобретениеТоваровУслуг") Или Регистратор.СкладПолучатель = Справочники.Склады.НайтиПоНаименованию("СиМ САТОМС (Склад)") Тогда Количество Конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дебет</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>Кредит</dataPath>
+		<expression>Выбор Когда НЕ ТИПЗНАЧЕНИЯ(Регистратор) = ТИП("Документ.ПриобретениеТоваровУслуг") Или Регистратор.СкладПолучатель = Справочники.Склады.НайтиПоНаименованию("СиМ САТОМС (Склад)") Тогда -Количество Конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Кредит</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<totalField>
+		<dataPath>Дебет</dataPath>
+		<expression>Сумма(Дебет)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Кредит</dataPath>
+		<expression>Сумма(Кредит)</expression>
+	</totalField>
+	<settingsVariant>
+		<dcsset:name>ДвиженияТоваровЗаДень</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Движения товаров за день</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Дебет</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Кредит</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Период</dcsset:left>
+					<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfLastDay</v8:variant>
+					</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Период</dcsset:left>
+					<dcsset:comparisonType>LessOrEqual</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+					</dcsset:right>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Организация</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Склад</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Номенклатура</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Регистратор</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

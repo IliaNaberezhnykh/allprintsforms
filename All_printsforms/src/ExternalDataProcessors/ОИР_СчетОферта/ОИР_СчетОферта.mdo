@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa029686-babc-4a18-bd1b-ce4362b69a8a">
+  <producedTypes>
+    <objectType typeId="009328a2-50b9-4a41-9d4b-f378d8a7b489" valueTypeId="c16fafbc-08f7-4fb5-9f5f-0656a67056c2"/>
+  </producedTypes>
+  <name>ОИР_СчетОферта</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОИР Счет оферта</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="16e33b44-1baa-4a95-a17f-8cce35937319"/>
+  <templates uuid="79ef7482-6b1a-4cd9-855e-fce00cfee554">
+    <name>ПФ_MXL_СчетНаОплату2</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL счет на оплату2</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>

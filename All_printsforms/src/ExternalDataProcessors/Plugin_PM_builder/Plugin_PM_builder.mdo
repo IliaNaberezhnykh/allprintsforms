@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d30beaa-ee64-4926-b31b-e6730aa0fca1">
+  <producedTypes>
+    <objectType typeId="596fc5f5-51a7-421c-8c24-b7db0b3ab344" valueTypeId="ecdb370b-d798-4bf1-ad5c-8f430a5f1398"/>
+  </producedTypes>
+  <name>Plugin_PM_builder</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генератор подключаемого модуля</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="44637cf8-081d-4155-9839-ef153a3d4377"/>
+  <defaultForm>ExternalDataProcessor.Plugin_PM_builder.Form.Настройки_Обычная</defaultForm>
+  <auxiliaryForm>ExternalDataProcessor.Plugin_PM_builder.Form.Настройки</auxiliaryForm>
+  <attributes uuid="26c24c55-a3ca-4487-ac05-7ce2a930c8bd">
+    <name>ИмяФайлаПодключаемогоМодуля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла подключаемого модуля</value>
+    </synonym>
+    <comment>По этому адресу будет сгенерирован ПМ</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9db3b35d-e65b-4d6e-a347-48baf454ed13">
+    <name>КлиентскиеВызовы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиентские вызовы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d592c4f3-8b59-4532-be1f-4e4fbc67d71b">
+    <name>Настройки_Обычная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки обычная</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="77518202-3ce7-4058-84a3-8ddc691bbd60">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d73085e2-3713-4596-866d-3ba1f174d63d">
+    <name>Сценарии_zip</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарии zip</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="b5431c41-9939-4ab5-ab5a-f31da1366a52">
+    <name>template_epf_unpack_zip</name>
+    <synonym>
+      <key>ru</key>
+      <value>Template epf unpack zip</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="ca77c874-0681-4d5b-8e6f-bab3137c370f">
+    <name>Unpackv8_exe</name>
+    <synonym>
+      <key>ru</key>
+      <value>Unpackv8.exe</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="abb52f7e-a6a3-479e-a9c8-7e92b66d1533">
+    <name>ОписаниеПлагина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание плагина</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>

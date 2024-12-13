@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3d1d4cf-1fdc-4495-b01e-5face5adc057">
+  <producedTypes>
+    <objectType typeId="983d35b9-d349-4dae-9c0f-68f57962d69e" valueTypeId="49200e23-62ef-40ed-a2ff-c32ebe2f36b3"/>
+  </producedTypes>
+  <name>МодульОбменаСБанкомV3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модуль обмена с банком v3</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="bd341579-efc7-4209-9308-dbb5782a5ff3"/>
+  <defaultForm>ExternalDataProcessor.МодульОбменаСБанкомV3.Form.ОсновнаяФорма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="eb178aec-be9d-4632-800f-5927aeaeae07">
+    <name>мВерсия</name>
+    <synonym>
+      <key>ru</key>
+      <value>мВерсия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="5ce2be9f-4b9b-470e-8143-f81fa5b2e340">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="bfd990ec-05f4-463d-8840-a5fbd893f8c2">
+    <name>ЗУП30</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЗУП30</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="a85261b3-25e8-41d0-86cd-061359933081">
+    <name>ЗКГУ30</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЗКГУ30</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="d3d8af12-f482-4d10-b092-d2e8d7769468">
+    <name>КАМИН</name>
+    <synonym>
+      <key>ru</key>
+      <value>КАМИН</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="0ed8e48f-13e1-4a4d-b2f4-b7264a68d557">
+    <name>БП30</name>
+    <synonym>
+      <key>ru</key>
+      <value>Б п30</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>

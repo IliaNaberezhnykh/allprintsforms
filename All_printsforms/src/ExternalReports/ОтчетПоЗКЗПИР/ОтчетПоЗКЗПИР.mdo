@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e0bb888-9bbf-4cd5-8c0c-1b0a9844389a">
+  <producedTypes>
+    <objectType typeId="614ad11d-0575-4162-99dc-23f67cf590c4" valueTypeId="a3b432b9-61e9-47c6-afb3-53ac52dae59e"/>
+  </producedTypes>
+  <name>ОтчетПоЗКЗПИР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по ЗКЗПИР</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="08def4b0-9c64-4c0d-b644-31e716e16a8d"/>
+  <mainDataCompositionSchema>ExternalReport.ОтчетПоЗКЗПИР.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="c95b1ed5-2752-43d3-a589-68a938dd09ab">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

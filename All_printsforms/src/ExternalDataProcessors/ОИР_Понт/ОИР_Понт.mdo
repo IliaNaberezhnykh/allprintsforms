@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74dee94a-d4cc-4087-ad1c-fdff53048474">
+  <producedTypes>
+    <objectType typeId="77adb295-2dd7-4deb-b2cf-80babf59ad55" valueTypeId="a111656e-0b81-495e-bf82-a2065602a4e2"/>
+  </producedTypes>
+  <name>ОИР_Понт</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОИР Понт</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="d889cd8b-7992-4b78-b483-56ae058d9ada"/>
+  <templates uuid="78a2842d-1ddf-4823-a02a-2dea1c112c11">
+    <name>ПФ_MXL_ПриходныйОрдерНаТовары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приходный ордер на товары</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Goods receipt</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74dee94a-d4cc-4087-ad1c-fdff53048474">
+  <producedTypes>
+    <objectType typeId="77adb295-2dd7-4deb-b2cf-80babf59ad55" valueTypeId="a111656e-0b81-495e-bf82-a2065602a4e2"/>
+  </producedTypes>
+  <name>ОИР_СписаниеМТРНаВыпускПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОИР списание МТР на выпуск продукции</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="d889cd8b-7992-4b78-b483-56ae058d9ada"/>
+  <defaultForm>ExternalDataProcessor.ОИР_СписаниеМТРНаВыпускПродукции.Form.Форма</defaultForm>
+  <attributes uuid="e4de8ada-f266-466e-bb99-d2ed328dd31a">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроизводствоБезЗаказа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="228e6fe8-33a0-4286-ac6d-0f2faa9fd9bc">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="97804f9a-39be-4abd-8c01-ec844e08baa1">
+    <name>ПГЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПГЗ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Transfer of materials to production</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>

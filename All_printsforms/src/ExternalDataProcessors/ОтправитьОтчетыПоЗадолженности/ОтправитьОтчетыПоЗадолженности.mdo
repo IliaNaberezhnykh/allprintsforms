@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f20502a-e61f-4e96-947c-4013bfa2e52d">
+  <producedTypes>
+    <objectType typeId="aff06601-309b-430f-81db-6652ae19d3ef" valueTypeId="d11ea27b-eb00-495f-b9c0-c54c773f7150"/>
+  </producedTypes>
+  <name>ОтправитьОтчетыПоЗадолженности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправить отчеты по задолженности</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="14d01875-0e8d-4ff9-8fa5-f49f25239468"/>
+  <defaultForm>ExternalDataProcessor.ОтправитьОтчетыПоЗадолженности.Form.Форма</defaultForm>
+  <forms uuid="3a81aaa8-46eb-418e-ace0-76e67e0b2f20">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

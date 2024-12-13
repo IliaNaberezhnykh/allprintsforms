@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0b5d786-c221-4cb3-b083-93fe435c4347">
+  <producedTypes>
+    <objectType typeId="33537771-8f8b-4b31-93cf-2c819fc1983c" valueTypeId="4b887332-3be7-4f0a-91dd-ee63cd5bf25d"/>
+  </producedTypes>
+  <name>ЗаказыЗаГод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы за год</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="b7c2faf7-0862-469f-86c4-ad28965cb950"/>
+  <mainDataCompositionSchema>ExternalReport.ЗаказыЗаГод.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="acfe4c46-79b8-4237-a774-a83779dbe420">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

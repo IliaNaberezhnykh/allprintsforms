@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0db3614-4016-4350-a1c1-df6bc0c9745f">
+  <producedTypes>
+    <objectType typeId="42c2ca8b-5e97-477a-a44f-3fe14fbc93f1" valueTypeId="2a1eb84b-2a1f-4196-b60d-b741d32542a3"/>
+  </producedTypes>
+  <name>РеализацииВПути</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реализации в пути</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="c345cea3-6e65-4fde-937e-3060eb2fc43e"/>
+  <mainDataCompositionSchema>ExternalReport.РеализацииВПути.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="ea58aae7-cb6e-486d-9bd1-a73667e54132">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

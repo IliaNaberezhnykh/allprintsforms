@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcc6e3e9-26df-4308-b7a4-8ead2c455d63">
+  <producedTypes>
+    <objectType typeId="25ca28b8-f9a6-42eb-a041-d48442ae239d" valueTypeId="1b05ad22-0a9a-415b-bcc3-f00edb317f4b"/>
+  </producedTypes>
+  <name>ОИР_ТТН_Перемещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОИР ТТН перемещение</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="c94c7bbc-bbb5-41c2-b1c5-d3a14555f1c6"/>
+  <defaultForm>ExternalDataProcessor.ОИР_ТТН_Перемещение.Form.Форма</defaultForm>
+  <forms uuid="a686bea2-93f2-4738-8d23-8c6fbc6ea7f0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="31270476-2739-4faa-9831-152294c4d05b">
+    <name>ПФ_MXL_ТТН_ru2</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТТН</value>
+    </synonym>
+  </templates>
+  <templates uuid="d1d957b1-2323-4cd7-8ec2-6b4fb3e5b0ec">
+    <name>ПФ_MXL_ТТН_en</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТТН</value>
+    </synonym>
+  </templates>
+  <templates uuid="9cc86199-0736-405b-9213-3a56c6792db6">
+    <name>ПФ_MXL_ТТН_ar</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТТН</value>
+    </synonym>
+  </templates>
+  <templates uuid="bff8e272-2299-4afc-ab92-baf4c146d526">
+    <name>ПФ_MXL_ТТН_tur</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТТН</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>

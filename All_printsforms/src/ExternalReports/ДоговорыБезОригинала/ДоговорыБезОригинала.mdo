@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e90ab68-d1d5-4055-9327-ca60d6459f00">
+  <producedTypes>
+    <objectType typeId="e8bf3694-6e2b-453b-97b0-bf2a5ee201d5" valueTypeId="1dd399c6-ee64-4924-b0ed-1009a693c3ce"/>
+  </producedTypes>
+  <name>ДоговорыБезОригинала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры без оригинала</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="9cdb0a44-c561-4b79-90b4-1465a948cc88"/>
+  <mainDataCompositionSchema>ExternalReport.ДоговорыБезОригинала.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="61661955-06b9-42f7-88ec-b4e3bf66705a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

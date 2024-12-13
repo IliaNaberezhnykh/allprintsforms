@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3675d68d-7b2a-4423-a158-f0c1904ffc04">
+  <producedTypes>
+    <objectType typeId="6b76fe2a-8133-4cb9-a720-8ddd1098328d" valueTypeId="7fc1215c-a3b2-4e0b-8b20-01655654e43c"/>
+  </producedTypes>
+  <name>ЗакупкиИПродажиОИР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закупки и продажи ОИР</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="47872451-2971-4f39-baa0-4c4c450c4c9f"/>
+  <mainDataCompositionSchema>ExternalReport.ЗакупкиИПродажиОИР.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="3272535c-6e16-4ca0-9486-43d48008dfd7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

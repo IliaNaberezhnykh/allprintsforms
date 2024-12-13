@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31f30ef6-e3d2-46a8-9393-5f44f4760031">
+  <producedTypes>
+    <objectType typeId="76852ebe-9e57-444d-96be-501d51c0e967" valueTypeId="d9f2c3b7-eedc-4de4-b651-add81574cb8b"/>
+  </producedTypes>
+  <name>Plugin_ИзменениеКонтента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение контента</value>
+  </synonym>
+  <comment>https://wiki.skbkontur.ru/pages/viewpage.action?pageId=557199264</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="ee23b5d8-4a8a-48b5-8643-29c6b85f9349"/>
+  <forms uuid="e6da39ef-173b-44c6-a52d-b30f65dfe040">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="354fe0a8-616e-4bce-9f84-8bdcfcf5774e">
+    <name>КлиентскиеВызовы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиентские вызовы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1acc53b3-1475-4325-9f12-ca1febf1cbcc">
+    <name>НастройкаАлгоритма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка алгоритма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="09e365fa-5f27-4b48-a779-3066851502eb">
+    <name>Настройки_Обычная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки обычная</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="31992504-a266-4aa8-96a2-110dd692fede">
+    <name>НастройкаАлгоритма_Обычная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка алгоритма обычная</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ffffdeac-2739-4cda-a694-9ef19b5cb780">
+    <name>ОписаниеПлагина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание плагина</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="73c73716-023d-4b2c-8623-d52144a1c68f">
+    <name>ДоступныеСценарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступные сценарии</value>
+    </synonym>
+  </templates>
+  <templates uuid="3b4080c0-0a53-4355-932d-3bf66a3963e4">
+    <name>БраузерОбъектов_epf</name>
+    <synonym>
+      <key>ru</key>
+      <value>Браузер объектов epf</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="f3947dac-df70-434f-87b8-fab08538ed5c">
+    <name>СправочникФункций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник функций</value>
+    </synonym>
+  </templates>
+  <templates uuid="7086ff48-f1b2-4bda-b698-59eeebb380c4">
+    <name>СхемаКомпоновкиОтбораНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки отбора номенклатуры</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>

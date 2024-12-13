@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+		<languageInfo>
+			<id>en</id>
+			<code>Английский</code>
+			<description>Английский</description>
+		</languageInfo>
+		<languageInfo>
+			<id>ar</id>
+			<code>Арабский</code>
+			<description>Арабский</description>
+		</languageInfo>
+		<languageInfo>
+			<id>Tur</id>
+			<code>Турецкий</code>
+			<description>Турецкий</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>6</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>1</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>2</index>
+			<column>
+				<formatIndex>3</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>3</index>
+			<column>
+				<formatIndex>4</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>4</index>
+			<column>
+				<formatIndex>5</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>5</index>
+			<column>
+				<formatIndex>6</formatIndex>
+			</column>
+		</columnsItem>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шаблон кода</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание входных переменных</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание результата</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поддерживаемые типы документов</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИмяЗакладки_ВизуальнаяНастройка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сценарии_СписокЗначений</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>1</index>
+		<row>
+			<c>
+				<i>5</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>2</index>
+		<row>
+			<formatIndex>10</formatIndex>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>// пример кода
+	
+Запрос = Новый Запрос;
+		
+ТекстЗапроса = "
+|ВЫБРАТЬ РАЗРЕШЕННЫЕ
+|	РеализацияТоваровУслугТовары.Номенклатура КАК Номенклатура,
+|	РеализацияТоваровУслугТовары.Характеристика КАК Характеристика,
+|	РеализацияТоваровУслугТовары.Серия КАК Серия,
+|	СУММА(РеализацияТоваровУслугТовары.СуммаАкциза) КАК СуммаАкциза
+|ИЗ
+|	Документ.РеализацияТоваровУслуг.Товары КАК РеализацияТоваровУслугТовары
+|ГДЕ
+|	РеализацияТоваровУслугТовары.Ссылка = &amp;Ссылка
+|
+|СГРУППИРОВАТЬ ПО
+|	РеализацияТоваровУслугТовары.Номенклатура,
+|	РеализацияТоваровУслугТовары.Характеристика,
+|	РеализацияТоваровУслугТовары.Серия";
+			
+Запрос.Текст = ТекстЗапроса;
+	
+Запрос.УстановитьПараметр("Ссылка", ДокументРеализации);
+	
+РезультатЗапроса = Запрос.Выполнить().Выгрузить();
+	
+Для Каждого ЭлементТЗ Из Результат Цикл
+		
+	СтруктураПоиска = Новый Структура;
+	СтруктураПоиска.Вставить("Номенклатура", ЭлементТЗ.Номенклатура);
+	СтруктураПоиска.Вставить("Характеристика", ЭлементТЗ.Характеристика);
+	СтруктураПоиска.Вставить("Серия", ЭлементТЗ.Серия);
+		
+	РезультатПоиска = РезультатЗапроса.НайтиСтроки(СтруктураПоиска);
+	Если РезультатПоиска.Количество() &gt; 0 Тогда
+		ЭлементТЗ.СуммаАкциза = РезультатПоиска[0].СуммаАкциза;
+	КонецЕсли;
+		
+КонецЦикла;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДокументСсылка: ДокументСсылка.СчетФактураВыданный, ДокументСсылка.РеализацияТоваровУслуг, .... Документ 1С, из которого собирается электронный документ.
+ДокументРеализации: Документ-основание счета-фактуры
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Результат - ТаблицаЗначений. Содержит в себе некоторые параметры товарной части документа: Номенклатура, Характеристика, Серия, Упаковка, Цена, Количество, СтавкаНДС, НомерГТД, СтранаПроисхождения.
+
+Требуется заполнить поле СуммаАкциза.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СФ
+УПД
+ИУПД
+ТОРГ-12
+УКД
+КСФ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СтраницаВизуальнаяНастройка_СуммаАкциза</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>3</index>
+		<row>
+			<c>
+				<i>5</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>4</index>
+		<row>
+			<c>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>// Пример для конфигурации Бухгалтерия Предприятия 3.0
+
+ДоговорНаименование = ДокументРеализации.ДоговорКонтрагента.Наименование;  // пример: "договор-оферта №1234567 от 09.02.2021 (руб.)"
+																		   //реквизит может называться не ДоговорКонтрагента, а Договор (например в УНФ)
+Результат.Наименование = Строки_ЧастьДо(ДоговорНаименование, "№");
+Результат.Номер = Строки_ЧастьМежду(ДоговорНаименование, "№", " от ");
+Результат.Дата = Строки_ЧастьПосле(ДоговорНаименование, " от ");
+
+Результат.ДопИнформация = ДокументРеализации.ДоговорКонтрагента.Комментарий;
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>12</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДокументСсылка: ДокументСсылка.СчетФактураВыданный, ДокументСсылка.РеализацияТоваровУслуг, .... Документ 1С, из которого собирается электронный документ.
+ДокументРеализации: Документ-основание счета-фактуры
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Результат - это Структура с полями:
+- Наименование: Строка. Наименование документа отгрузки.
+- Номер: Строка. Номер документа отгрузки.
+- Дата: Дата. Дата документа отгрузки.
+- ДопИнформация: Строка. Любая дополнительная информация к документу.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Акт
+ТОРГ-12
+УПД</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>5</index>
+		<row>
+			<c>
+				<i>5</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>6</index>
+		<row>
+			<c>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>// Пример для конфигурации Бухгалтерия Предприятия 3.0
+
+Для Каждого СтрокаТаблицы из Результат Цикл
+
+	СтрокаТаблицы.КодТов		= СтрокаТаблицы.Номенклатура.Артикул;
+
+КонецЦикла;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДокументСсылка: ДокументСсылка.СчетФактураВыданный, ДокументСсылка.РеализацияТоваровУслуг, .... Документ 1С, из которого собирается электронный документ.
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Результат - ТаблицаЗначений. Содержит в себе некоторые параметры товарной части документа: номенклатура, наименование, код товара.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>УПД
+УКД</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СтраницаВизуальнаяНастройка_КодТовара</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные_Сведения
+Реквизит_Номенклатуры
+Реквизит_Характеристики
+Регистр_Сведений</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>7</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>8</index>
+		<row>
+			<c>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>// Пример для конфигурации Бухгалтерия Предприятия 3.0
+
+// ИнфПолФХЖ1 - инфополя документа
+
+НомерЗаказа = ЗначениеДопСвойстваПоИмени(ДокументРеализации, "НомерЗаказа"); // номер заказа возьмем из Реализации
+ДобавитьИнфополе(Результат.ИнфополяШапки, "НомерЗаказа", НомерЗаказа);  
+
+КодДоговора = ДокументСсылка.Договор.Код; // код договора расположен в Договоре
+ДобавитьИнфополе(Результат.ИнфополяШапки, "КодДоговора", КодДоговора);  
+
+
+
+// ИнфПолФХЖ2 - инфополя таблицы товаров
+Для Каждого СтрокаТаблицы из Результат.ТаблицаТоваров Цикл
+
+	Характеристика =  ЗначениеДопСвойстваПоИмени(СтрокаТаблицы.Номенклатура, "Характеристика");  // берем данные из доп.сведений
+	ДобавитьИнфополе(СтрокаТаблицы.Инфополя, "Характеристика",	Характеристика);
+	
+	Размер = СтрокаТаблицы.Номенклатура.Размер;  // берем данные из реквизита Номенклатуры
+	ДобавитьИнфополе(СтрокаТаблицы.Инфополя, "Размер", Размер);
+	
+КонецЦикла;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДокументСсылка: ДокументСсылка.СчетФактураВыданный, ДокументСсылка.РеализацияТоваровУслуг, .... Документ 1С, из которого собирается электронный документ.
+ДокументРеализации: Документ-основание счета-фактуры
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Результат - это Структура с полями:
+- ИнфополяШапки: ТаблицаЗначений. Инфополя шапки документа.
+- ТаблицаТоваров: ТаблицаЗначений. Краткое описание табличной части документа, в которой расположены инфополя строк документа.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Акт
+СФ
+УПД
+ТОРГ-12
+УКД</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СтраницаВизуальнаяНастройка_Инфополя</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>10</index>
+		<row>
+			<c>
+				<c>
+					<f>11</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>15</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Акт
+СФ
+УПД
+ТОРГ-12
+УКД</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>11</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>12</index>
+		<row>
+			<c>
+				<c>
+					<f>11</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>15</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Акт
+СФ
+УПД
+ТОРГ-12
+УКД</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>13</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>14</index>
+		<row>
+			<c>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>// Пример для конфигурации Бухгалтерия Предприятия 3.0
+
+Результат.СведенияОТранспортировкеИГрузе = "Транспортировка: " + ДокументРеализации.Комментарий;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДокументСсылка: ДокументСсылка.СчетФактураВыданный, ДокументСсылка.РеализацияТоваровУслуг, .... Документ 1С, из которого собирается электронный документ.
+ДокументРеализации: Документ-основание счета-фактуры
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Результат - это Структура с полями:
+- СведенияОТранспортировкеИГрузе - Строка.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>УПД</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>15</index>
+		<row>
+			<c>
+				<c>
+					<f>16</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>16</index>
+		<row>
+			<c>
+				<c>
+					<f>11</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>15</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Акт
+СФ
+УПД
+ТОРГ-12</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>17</index>
+		<row>
+			<c>
+				<c>
+					<f>11</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>15</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>18</index>
+		<row>
+			<c>
+				<c>
+					<f>11</f>
+					<tl/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>15</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Акт
+СФ
+УПД
+ТОРГ-12
+УКД</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СтраницаВизуальнаяНастройка_УступочнаяНадпись</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>19</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>20</index>
+		<row>
+			<c>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>// 1. Заполнить колонку "GTIN" - раскомментировать/исправить нужный вариант.
+
+// Если GTIN хранятся в регистре "Штрихкоды"
+// ОСУ_ЗаполнитьКолонку_ИзРегистраШтрихкодов(Результат.ТаблицаТоваров, "GTIN");  
+
+// Если GTIN лежит в реквизите "Штрихкод" справочника "Номенклатура"
+// ИмяРеквизитаНоменклатуры = "Штрихкод";
+// ОСУ_ЗаполнитьКолонку_ИзРеквизитаНоменклатуры(Результат.ТаблицаТоваров, "GTIN", ИмяРеквизитаНоменклатуры);
+
+// Если GTIN указан в доп.свойстве "КодТовараДляОСУ" справочника "Номенклатура"
+// ИмяДопСвойства = "КодТовараДляОСУ";
+// ОСУ_ЗаполнитьКолонку_ИзДопСвойстваНоменклатуры(Результат.ТаблицаТоваров, "GTIN", ИмяДопСвойства);
+
+
+// 2. Заполнить признак, что товар подпадает под ОСУ.
+
+// Если признак указан в реквизите "МолочнаяПродукцияБезВЕТИС" справочника "Номенклатура"
+// ИмяРеквизита = "МолочнаяПродукцияБезВЕТИС";
+// ОСУ_ЗаполнитьКолонку_ИзРеквизитаНоменклатуры(Результат.ТаблицаТоваров, "ПризнакОСУ", ИмяРеквизита);
+
+// Если признак указан в доп.свойстве "ЭтоТоварОСУ" справочника "Номенклатура"
+// ИмяДопСвойства = "ЭтоТоварОСУ";
+// ОСУ_ЗаполнитьКолонку_ИзДопСвойстваНоменклатуры(Результат.ТаблицаТоваров, "ПризнакОСУ", ИмяДопСвойства);
+
+
+// 3. Заполнить коэффициент пересчета
+
+// Колонка "Числитель" - умножаем на коэффициент. Колонка "Знаменатель" - делим на коэффициент
+
+// Если коэффициент указан в доп.свойстве "Коэффициент_ОСУ" справочника "Номенклатура". Может пригодиться в Бухгалтерии Предприятия 2.0/3.0
+// ИмяДопСвойства = "Коэффициент_ОСУ";
+// ОСУ_ЗаполнитьКолонку_ИзДопСвойстваНоменклатуры(Результат.ТаблицаТоваров, "Знаменатель", ИмяДопСвойства);
+
+// Если коэффициент указан в реквизите "Коэффициент" справочника "ЕдиницыИзмерения" / "УпаковкиЕдиницИзмерения". УТ, УПП, ERP, КА, УНФ.
+// ИмяРеквизита = "Коэффициент";
+// ОСУ_ЗаполнитьКолонку_ИзРеквизитаУпаковки(Результат.ТаблицаТоваров, "Числитель", "Коэффициент");
+
+
+// 4. Заполнить код вывода из оборота. 
+// Если у справочника "Контрагенты" добавлено доп.свойство "КодВыводаИзОборота" (число/строка)
+// Результат.КодВыводаИзОборота = ЗначениеДопСвойстваПоИмени(ДокументРеализации.Контрагент, "КодВыводаИзОборота");
+
+
+
+
+//-------------------------------------//
+// Если нужна более тонкая настройка, то можно обойти таблицу циклом. Это может снизить скорость работы.
+
+// Для Каждого Стр Из Результат.ТаблицаТоваров Цикл
+// 	Стр.ПризнакОСУ = (Стр.Номенклатура.Родитель.Наименование = "Молочная продукция ОСУ");
+// 	Стр.GTIN = "123";
+// 	Стр.Числитель = Стр.Упаковка.Коэффициент;
+// 	Стр.Знаменатель = 2;
+// КонецЦикла;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
+					<tl/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>15</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>УПД
+УКД</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СтраницаВизуальнаяНастройка_КодыОСУ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>21</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>22</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>---</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>23</index>
+		<row>
+			<c>
+				<c>
+					<f>16</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>18</defaultFormatIndex>
+	<height>23</height>
+	<vgRows>23</vgRows>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ДополнительныеСведения</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>8</beginRow>
+			<endRow>8</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ЗаполнениеКодовОСУ</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>20</beginRow>
+			<endRow>20</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ЗаполнениеСуммыАкциза</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>2</beginRow>
+			<endRow>2</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>КодТовара</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>6</beginRow>
+			<endRow>6</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ОснованиеОтгрузки</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>4</beginRow>
+			<endRow>4</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ОчисткаКолонок_2_4</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>12</beginRow>
+			<endRow>12</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ОчисткаКонтактныхДанных</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>10</beginRow>
+			<endRow>10</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СведенияОТранспортировкеИГрузе</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>14</beginRow>
+			<endRow>14</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Строка5А</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>16</beginRow>
+			<endRow>16</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>УступочнаяНадпись</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>18</beginRow>
+			<endRow>18</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<format>
+		<width>622</width>
+	</format>
+	<format>
+		<width>199</width>
+	</format>
+	<format>
+		<width>345</width>
+	</format>
+	<format>
+		<width>119</width>
+	</format>
+	<format>
+		<width>248</width>
+	</format>
+	<format>
+		<width>191</width>
+	</format>
+	<format>
+		<width>603</width>
+		<verticalAlignment>Top</verticalAlignment>
+		<backColor>style:FormBackColor</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<backColor>style:FormBackColor</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<width>248</width>
+		<backColor>style:FormBackColor</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<height>233</height>
+	</format>
+	<format>
+		<width>603</width>
+		<verticalAlignment>Top</verticalAlignment>
+	</format>
+	<format>
+		<verticalAlignment>Top</verticalAlignment>
+	</format>
+	<format>
+		<width>137</width>
+		<verticalAlignment>Top</verticalAlignment>
+	</format>
+	<format>
+		<width>199</width>
+		<verticalAlignment>Top</verticalAlignment>
+	</format>
+	<format>
+		<width>223</width>
+	</format>
+	<format>
+		<width>472</width>
+	</format>
+	<format>
+		<width>312</width>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+</document>

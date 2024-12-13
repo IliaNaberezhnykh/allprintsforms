@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00448b39-4b0a-4051-84fd-9fcd7cc40dea">
+  <producedTypes>
+    <objectType typeId="82b02f29-c7e5-4935-84ec-7b1b831ae23f" valueTypeId="dad66941-aee1-4627-8ba4-cdc7d1626a6b"/>
+  </producedTypes>
+  <name>ПоездкиЯндексТакси</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поездки яндекс такси</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="b84c3c84-a576-462f-b9da-8fffe3ff6ba8"/>
+  <mainDataCompositionSchema>ExternalReport.ПоездкиЯндексТакси.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="7ac0f901-f13e-4a90-8979-7ecf699ac981">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

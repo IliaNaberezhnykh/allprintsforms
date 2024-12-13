@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af72f015-6cd1-492f-96da-7d559ef082da">
+  <producedTypes>
+    <objectType typeId="c5976b61-a56f-41b6-be4a-148560ea42f1" valueTypeId="88cef3f9-c8d9-4d73-89cf-b73c247a279d"/>
+  </producedTypes>
+  <name>ИсполнениеСЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исполнение служебных записок (ОИР)</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="8d7af4e4-35f8-4017-bd98-a102e8de5e8a"/>
+  <mainDataCompositionSchema>ExternalReport.ИсполнениеСЗ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="4d74b287-0328-43bd-a9bb-4dcad5335479">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

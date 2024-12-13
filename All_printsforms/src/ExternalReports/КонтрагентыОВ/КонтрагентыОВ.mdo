@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae26f73f-d84a-413a-8068-4948a543517a">
+  <producedTypes>
+    <objectType typeId="ca4b07e5-0a18-43de-a8d0-09dba6a408dc" valueTypeId="bd095652-66e5-4158-812f-5a0ca35efbd3"/>
+  </producedTypes>
+  <name>КонтрагентыОВ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты ОВ</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="991ab31d-db11-4aab-83bd-2708f11191d5"/>
+  <mainDataCompositionSchema>ExternalReport.КонтрагентыОВ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="1cc49b12-4d87-4af4-8517-1b1c7a790087">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

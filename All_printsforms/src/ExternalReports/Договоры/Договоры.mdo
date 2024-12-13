@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87fb11e4-9f9e-4504-97d5-1ffd3851605a">
+  <producedTypes>
+    <objectType typeId="a4f27f67-fe4f-4d95-b4fc-a29af52a9d54" valueTypeId="3ce51d98-07bc-4559-af7e-24776fccee26"/>
+  </producedTypes>
+  <name>Договоры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="9a104089-72ce-47cf-89b6-51670e115f11"/>
+  <mainDataCompositionSchema>ExternalReport.Договоры.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="08c54892-3bd9-4f1d-998b-eab2069e4a43">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

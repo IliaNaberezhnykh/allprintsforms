@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74dee94a-d4cc-4087-ad1c-fdff53048474">
+  <producedTypes>
+    <objectType typeId="77adb295-2dd7-4deb-b2cf-80babf59ad55" valueTypeId="a111656e-0b81-495e-bf82-a2065602a4e2"/>
+  </producedTypes>
+  <name>ОИР_СогласиеНаФото</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОИР Согласие на фото</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="d889cd8b-7992-4b78-b483-56ae058d9ada"/>
+  <attributes uuid="a495daad-7b26-469c-940e-6007c30b1ad3">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="d949e836-dade-4c7e-bcb3-6071074fa279">
+    <name>СОГЛАШЕНИЕ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОИР Согласие на публикацию фото</value>
+    </synonym>
+    <comment>ОИР Согласие на публикацию фото</comment>
+  </templates>
+</mdclass:ExternalDataProcessor>

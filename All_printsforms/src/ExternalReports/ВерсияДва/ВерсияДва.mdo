@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8c29290-7a3e-44ef-a831-2f11cea0fba7">
+  <producedTypes>
+    <objectType typeId="c24f9624-5c84-49d4-a890-d63907be90d8" valueTypeId="c773b3c0-b307-4053-9c12-a84315a6153b"/>
+  </producedTypes>
+  <name>ВерсияДва</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия два</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="89cbe6aa-93b5-44d8-8d16-22d7cde39861"/>
+  <mainDataCompositionSchema>ExternalReport.ВерсияДва.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="2a9c790a-81b5-4185-bc0d-4ed0ae66782b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

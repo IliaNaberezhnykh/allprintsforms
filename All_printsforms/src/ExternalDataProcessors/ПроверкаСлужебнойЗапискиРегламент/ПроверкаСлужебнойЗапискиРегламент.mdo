@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17b8346d-23ef-4e58-8f24-2ffb72dc8731">
+  <producedTypes>
+    <objectType typeId="a9ae856c-ab40-49ea-b718-45efcca3c262" valueTypeId="08530434-e309-467f-9f28-b7f1317a4844"/>
+  </producedTypes>
+  <name>ПроверкаСлужебнойЗапискиРегламент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка служебной записки регламент</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="ae812f29-baf2-4728-b701-4688a5eae31a"/>
+  <defaultForm>ExternalDataProcessor.ПроверкаСлужебнойЗапискиРегламент.Form.Форма</defaultForm>
+  <forms uuid="ea31f5c1-2a1f-435b-a87f-a123558a991a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
